@@ -1,0 +1,4 @@
+# Example dbt_project.yml file
+name: 'dbt_learn'
+profile: 'dbt_learn'
+...
