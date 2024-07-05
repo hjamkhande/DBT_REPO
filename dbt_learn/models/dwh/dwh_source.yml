@@ -1,0 +1,8 @@
+sources:
+  - name : src_hr
+    database: hr
+    schema: application
+    tables:
+      - name : tb_emp
+        identifier: employee
+

@@ -32,5 +32,17 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_learn:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    pract_code:
+      +materialized: table
+    Views:
       +materialized: view
+    MainTables:
+      +materialized: table
+      +transient: False
+    InterMediateTables:
+      +materialized: table
+    dwh :
+      +materialized: incremental
+      +transient: False
+      +database : dwh
+      +schema : asis

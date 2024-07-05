@@ -1,0 +1,2 @@
+select deptname,maxsal,minsal
+from StgDeptSalTrend

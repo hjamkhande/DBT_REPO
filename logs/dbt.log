@@ -475,3 +475,49 @@ Runtime Error
 [0m21:01:24.112894 [debug] [MainThread]: Command `dbt run` succeeded at 21:01:24.112894 after 0.90 seconds
 [0m21:01:24.113895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C9A28E480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C9A77ECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000013C9B967980>]}
 [0m21:01:24.113895 [debug] [MainThread]: Flushing usage events
+[0m12:20:51.596434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABD62A480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABD62B890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABD62B8F0>]}
+
+
+============================== 12:20:51.601370 | 8745a660-9e84-41a6-80f4-1f92f64b12a8 ==============================
+[0m12:20:51.601370 [info ] [MainThread]: Running with dbt=1.8.2
+[0m12:20:51.602590 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Harish\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\Harish\\Git\\DBT_REPO\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --select NationRegionBridge', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:20:53.880250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8745a660-9e84-41a6-80f4-1f92f64b12a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABB9B8890>]}
+[0m12:20:53.930392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8745a660-9e84-41a6-80f4-1f92f64b12a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABEF3A870>]}
+[0m12:20:53.931889 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m12:20:53.952093 [debug] [MainThread]: checksum: f0a141b9de567cb7f131613ba2682f40b3a1c6a157f81c6e5435862eff68f109, vars: {}, profile: , target: , version: 1.8.2
+[0m12:20:54.636097 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:20:54.636097 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:20:54.641088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8745a660-9e84-41a6-80f4-1f92f64b12a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026AC01766F0>]}
+[0m12:20:54.718693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8745a660-9e84-41a6-80f4-1f92f64b12a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026AC036BD70>]}
+[0m12:20:54.719694 [info ] [MainThread]: Found 444 macros
+[0m12:20:54.719694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8745a660-9e84-41a6-80f4-1f92f64b12a8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026AC01771A0>]}
+[0m12:20:54.721036 [warn ] [MainThread]: The selection criterion 'NationRegionBridge' does not match any enabled nodes
+[0m12:20:54.721539 [info ] [MainThread]: 
+[0m12:20:54.722540 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:20:54.723541 [debug] [MainThread]: Command end result
+[0m12:20:54.742342 [debug] [MainThread]: Command `dbt run` succeeded at 12:20:54.742342 after 3.29 seconds
+[0m12:20:54.742342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026ABCF24980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026AC0021C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026AC0052000>]}
+[0m12:20:54.743442 [debug] [MainThread]: Flushing usage events
+[0m12:21:13.372912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A3231DE20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A34C7B170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A34CA9940>]}
+
+
+============================== 12:21:13.379915 | 77e559b7-cd7d-4c0c-8706-7bb625ca2c89 ==============================
+[0m12:21:13.379915 [info ] [MainThread]: Running with dbt=1.8.2
+[0m12:21:13.380915 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Harish\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Harish\\Git\\DBT_REPO\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --select NationRegionBridge.sql', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:21:13.794358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '77e559b7-cd7d-4c0c-8706-7bb625ca2c89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A32A70B60>]}
+[0m12:21:13.839133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '77e559b7-cd7d-4c0c-8706-7bb625ca2c89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A3403C4A0>]}
+[0m12:21:13.840356 [info ] [MainThread]: Registered adapter: snowflake=1.8.3
+[0m12:21:13.847476 [debug] [MainThread]: checksum: f0a141b9de567cb7f131613ba2682f40b3a1c6a157f81c6e5435862eff68f109, vars: {}, profile: , target: , version: 1.8.2
+[0m12:21:13.937877 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:21:13.937877 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:21:13.943155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '77e559b7-cd7d-4c0c-8706-7bb625ca2c89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A34B7BBC0>]}
+[0m12:21:13.996111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '77e559b7-cd7d-4c0c-8706-7bb625ca2c89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A3737BD40>]}
+[0m12:21:13.997111 [info ] [MainThread]: Found 444 macros
+[0m12:21:13.998103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '77e559b7-cd7d-4c0c-8706-7bb625ca2c89', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A3737B050>]}
+[0m12:21:13.998103 [warn ] [MainThread]: The selection criterion 'NationRegionBridge.sql' does not match any enabled nodes
+[0m12:21:14.000102 [info ] [MainThread]: 
+[0m12:21:14.000102 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:21:14.002838 [debug] [MainThread]: Command end result
+[0m12:21:14.022508 [debug] [MainThread]: Command `dbt run` succeeded at 12:21:14.022508 after 0.76 seconds
+[0m12:21:14.023508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A34D2B050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A37060920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015A34FD56D0>]}
+[0m12:21:14.023508 [debug] [MainThread]: Flushing usage events

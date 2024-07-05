@@ -1,0 +1,11 @@
+sources:
+  - name : src_retail_schema
+    database : learndbt
+    schema : retail
+    tables:
+      - name: tb_cust
+        identifier: customer
+      - name : tb_nation
+        identifier: nation
+      - name : tb_region
+        identifier: region
