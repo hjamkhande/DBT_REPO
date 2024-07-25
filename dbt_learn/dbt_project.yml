@@ -46,3 +46,6 @@ models:
       +transient: False
       +database : dwh
       +schema : asis
+
+on-run-start: "{{check_audit_table('DB_MONITOR','AUDIT','AUDIT_DAILY_RUN')}}"
+on-run-end: "{{ getjobstat(results)}}"

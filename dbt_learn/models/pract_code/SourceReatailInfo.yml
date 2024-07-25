@@ -9,3 +9,9 @@ sources:
         identifier: nation
       - name : tb_region
         identifier: region
+  - name : src_hooks
+    database : hooks
+    schema : src
+    tables: 
+       - name : tb_emp_hooks
+         identifier : empsrc

@@ -1,0 +1,3 @@
+{{ config( materalized='table' )
+}}
+select *
